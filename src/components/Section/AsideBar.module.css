@@ -1,9 +1,9 @@
 .aside {
-  border: 2px solid hsl(240, 1%, 71%);
+  border: 1px solid hsla(240, 1%, 71%, 0.11);
   border-radius: 10px;
   background: white;
-  padding: 20px; /* Recommended to add some padding */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
+  padding: 35px; /* Recommended to add some padding */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); Optional: adds subtle shadow */
   height: 30%;
 }
 
