@@ -24,6 +24,6 @@ body {
 .main-wrapper { /* Changed to match JSX */
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 30px;
+  gap: 20px;
 }
 
