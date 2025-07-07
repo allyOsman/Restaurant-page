@@ -3,12 +3,12 @@ import addToCart from "../../assets/images/icon-add-to-cart.svg";
 
 import classes from "./CartItem.module.css";
 
-function CartItem({ item, image }) {
+function CartItem({ item }) {
   return (
     <li>
       <article className={classes.item}>
         <div className={classes.img_btn}>
-          <img src={image} className={classes.img_btn_img} />
+          <img src={item.image.desktop} className={classes.img_btn_img} />
           <button className={classes.img_btn_btn}>
             <img src={addToCart} />
             Add to cart

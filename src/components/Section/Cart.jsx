@@ -11,7 +11,7 @@ function Cart() {
           <CartItem
             key={item.id}
             item={item}
-            image={item.image.desktop}
+            // image={item.image.desktop}
           />
         ))}
       </ul>

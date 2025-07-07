@@ -28,8 +28,8 @@
   justify-content: center;
   align-items: center;
   margin-top: -25px;
-  width: 180px;
-  height: 50px;
+  width: 150px;
+  height: 40px;
   background: white;
   border: 1px solid hsl(240, 0%, 80%);
   border-radius: 15px;
@@ -84,15 +84,15 @@
 
 .all_text .title {
   color: hsl(0, 0%, 15%);
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   margin: 5px 0;
 }
 
 .all_text .price {
   color: hsl(14, 86%, 42%);
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* @media (max-width: 768px) {

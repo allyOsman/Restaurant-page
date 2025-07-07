@@ -7,7 +7,7 @@
 }
 
 body {
-  background: hsl(13, 31%, 94%);
+  background: hsla(13, 29%, 94%, 0.37);
   font-family: "Red Hat Text", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -18,7 +18,7 @@ body {
   max-width: 1400px; /* Prevents content from stretching too wide */
   margin: 100px auto; /* Centers the content horizontally */
   padding: 0 20px; /* Adds padding on smaller screens */
-  width: 100%;
+  width: 88%;
 }
 
 .main-wrapper { /* Changed to match JSX */
