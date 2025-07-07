@@ -115,7 +115,7 @@ export const AVAILABLE_DESSERTS = [
     name: "Lemon Meringue Pie",
   category: "Pie",
     price: 5.0,
-    id: "d5"
+    id: "d6"
   },
   {
     image: {
@@ -127,7 +127,7 @@ export const AVAILABLE_DESSERTS = [
     name: "Red Velvet Cake",
     category: "Cake",
     price: 4.5,
-    id: "d6"
+    id: "d7"
   },
   {
     image: {
@@ -139,7 +139,7 @@ export const AVAILABLE_DESSERTS = [
     name: "Salted Caramel Brownie",
     category: "Brownie",
     price: 4.5,
-    id: "d7"
+    id: "d8"
   },
   {
     image: {
@@ -151,6 +151,6 @@ export const AVAILABLE_DESSERTS = [
     name: "Vanilla Panna Cotta",
     category: "Panna Cotta",
     price: 6.5,
-    id: "d8"
+    id: "d9"
   }
 ]

@@ -21,9 +21,9 @@ body {
   width: 88%;
 }
 
-.main-wrapper { /* Changed to match JSX */
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
+.main-wrapper {
+  /* Changed to match JSX */
+   max-width: 1200px;
+  display: flex;
+ gap: 10px;
 }
-
