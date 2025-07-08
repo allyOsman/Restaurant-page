@@ -4,6 +4,7 @@ import AsideBar from "./components/Section/AsideBar.jsx";
 
 import { CartContextProvider } from "./store/CartContext.jsx";
 import { UserProgressContextProvider } from "./store/UserProgressContext.jsx";
+import Order from "./components/Section/Order.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <CartContextProvider>
         <section className="main-section">
           <Header />
+          <Order />
           <div className="main-wrapper">
             {" "}
             {/* Now matches CSS */}
